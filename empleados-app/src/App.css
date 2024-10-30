@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.empleado-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empleado-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  background-color: #f9f9f9;
+}
+
+.empleado-foto img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.empleado-info {
+  text-align: left;
+}
+
+.empleado-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.empleado-info p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.empleado-info button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.empleado-info button:first-of-type {
+  background-color: #dc3545;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.empleado-info button:last-of-type {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.empleado-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empleado-form input {
+  margin: 5px 0;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.empleado-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.empleado-form button:last-of-type {
+  background-color: #6c757d;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #218838;
+}
